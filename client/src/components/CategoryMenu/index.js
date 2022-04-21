@@ -22,7 +22,6 @@ function CategoryMenu() {
       });
     }
   }, [categoryData, dispatch]);
-  
 
   const handleClick = (id) => {
     dispatch({
